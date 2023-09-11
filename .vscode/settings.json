@@ -1,0 +1,13 @@
+{
+    "cSpell.words": [
+        "Hoenn",
+        "Pokedex"
+    ],
+    "files.associations": {
+        "array": "c",
+        "string": "c",
+        "string_view": "c",
+        "vector": "c"
+    },
+    "cmake.configureOnOpen": true
+}
