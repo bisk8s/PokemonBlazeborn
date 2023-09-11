@@ -387,7 +387,7 @@ static const struct WindowTemplate sNewGameBirchSpeechTextWindows[] =
         .tilemapLeft = 3,
         .tilemapTop = 5,
         .width = 6,
-        .height = 4,
+        .height = 6,
         .paletteNum = 15,
         .baseBlock = 0x6D
     },
@@ -454,7 +454,7 @@ static const union AffineAnimCmd *const sSpriteAffineAnimTable_PlayerShrink[] =
 
 static const struct MenuAction sMenuActions_Gender[] = {
     {gText_BirchBoy, NULL},
-    {gText_BirchGirl, NULL}
+    {gText_BirchGirl, NULL},
 };
 
 static const u8 *const sMalePresetNames[] = {
