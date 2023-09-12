@@ -109,9 +109,16 @@
 
 #define MAX_STAMP_CARD_STAMPS 7
 
+#define BRENDAN 0
+#define MAY 1
+#define RUBY_BRENDAN 2
+#define RUBY_MAY 3
+#define SKIN_COUNT 4
+
 #define MALE 0
 #define FEMALE 1
-#define GENDER_COUNT 2
+#define OTHER 2
+#define GENDER_COUNT 3
 
 #define BARD_SONG_LENGTH       6
 #define NUM_STORYTELLER_TALES  4

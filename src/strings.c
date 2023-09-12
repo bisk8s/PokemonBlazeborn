@@ -55,9 +55,16 @@ ALIGNED(4) const u8 gText_NextBack[] = _("{A_BUTTON}NEXT {B_BUTTON}BACK"); // Un
 ALIGNED(4) const u8 gText_PickNextCancel[] = _("{DPAD_UPDOWN}PICK {A_BUTTON}NEXT {B_BUTTON}CANCEL");
 ALIGNED(4) const u8 gText_PickCancel[] = _("{DPAD_UPDOWN}PICK {A_BUTTON}{B_BUTTON}CANCEL");
 ALIGNED(4) const u8 gText_AButtonExit[] = _("{A_BUTTON}EXIT");
+
 const u8 gText_BirchBoy[] = _("BOY");
 const u8 gText_BirchGirl[] = _("GIRL");
 const u8 gText_BirchOther[] = _("OTHER");
+
+const u8 gText_BirchBrendan[] = _("BRENDAN");
+const u8 gText_BirchMay[] = _("MAY");
+const u8 gText_BirchBrendanR[] = _("R. BRENDAN");
+const u8 gText_BirchMayR[] = _("R. MAY");
+
 const u8 gText_DefaultNameStu[] = _("STU");
 const u8 gText_DefaultNameMilton[] = _("MILTON");
 const u8 gText_DefaultNameTom[] = _("TOM");

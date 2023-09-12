@@ -16,8 +16,12 @@ gText_Birch_AndYouAre::
 	.string "And you are?$"
 
 gText_Birch_BoyOrGirl::
-	.string "Which skin do\n"
-	.string "you want?$"
+	.string "What's your\n"
+	.string "gender?$"
+
+gText_Birch_Skin::
+	.string "What's your\n"
+	.string "look?$"
 
 gText_Birch_WhatsYourName::
 	.string "All right.\n"
