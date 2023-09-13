@@ -1095,7 +1095,7 @@ void SetWeatherPalStateIdle(void)
 
 void PreservePaletteInWeather(u8 preservedPalIndex)
 {
-    CpuCopy16(sBasePaletteColorMapTypes, sFieldEffectPaletteColorMapTypes, 32);
+    memcpy(sBasePaletteColorMapTypes, sFieldEffectPaletteColorMapTypes, 32);
     sFieldEffectPaletteColorMapTypes[preservedPalIndex] = COLOR_MAP_NONE;
     sPaletteColorMapTypes = sFieldEffectPaletteColorMapTypes;
 }
